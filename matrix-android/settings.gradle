@@ -1,0 +1,6 @@
+include ':matrix-gradle-plugin', ':martrixsample'
+//include ':matrix-thread-canary'
+include ':matrix-android-lib'
+include ':matrix-commons'
+include ':matrix-trace-canary'
+//include ':matrix-sample-android:app'
