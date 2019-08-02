@@ -11,8 +11,8 @@ import com.tencent.matrix.trace.constants.Constants;
 import com.tencent.matrix.trace.hacker.ActivityThreadHacker;
 import com.tencent.matrix.trace.listeners.IAppMethodBeatListener;
 
-import cc.tencent.matrix.util.MatrixHandlerThread;
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixHandlerThread;
+import com.tencent.matrix.util.MatrixLog;
 
 import java.util.HashSet;
 import java.util.Set;

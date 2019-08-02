@@ -10,7 +10,7 @@ buildscript {
     dependencies {
         // classpath
         classpath 'cc.popin.aladdin.matrix-plugin:matrix-gradle-plugin:0.5.2'
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         classpath 'digital.wup:android-maven-publish:3.2.0'
     }

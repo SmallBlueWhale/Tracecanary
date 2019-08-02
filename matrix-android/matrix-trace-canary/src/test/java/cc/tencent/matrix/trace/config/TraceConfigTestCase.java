@@ -2,7 +2,7 @@ package cc.tencent.matrix.trace.config;
 
 import com.tencent.matrix.trace.config.TraceConfig;
 
-import cc.tencent.mrs.plugin.IDynamicConfig;
+import com.tencent.mrs.plugin.IDynamicConfig;
 
 import junit.framework.TestCase;
 

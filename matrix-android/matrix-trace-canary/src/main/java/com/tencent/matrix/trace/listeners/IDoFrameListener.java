@@ -18,7 +18,7 @@ package com.tencent.matrix.trace.listeners;
 
 import android.os.Handler;
 
-import cc.tencent.matrix.util.MatrixHandlerThread;
+import com.tencent.matrix.util.MatrixHandlerThread;
 
 /**
  * Created by caichongyang on 2017/5/26.

@@ -202,6 +202,7 @@ public class MatrixTraceTransform extends Transform {
         }
         futures.clear();
 
+
         Log.i(TAG, "[doTransform] Step(1)[Parse]... cost:%sms", System.currentTimeMillis() - start);
 
 

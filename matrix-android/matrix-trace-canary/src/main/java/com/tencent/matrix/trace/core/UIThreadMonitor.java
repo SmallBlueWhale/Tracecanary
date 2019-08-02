@@ -8,7 +8,7 @@ import com.tencent.matrix.trace.util.Utils;
 import com.tencent.matrix.trace.config.TraceConfig;
 import com.tencent.matrix.trace.listeners.LooperObserver;
 
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixLog;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

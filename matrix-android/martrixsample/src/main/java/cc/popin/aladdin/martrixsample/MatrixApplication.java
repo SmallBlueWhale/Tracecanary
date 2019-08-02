@@ -2,7 +2,7 @@ package cc.popin.aladdin.martrixsample;
 
 import android.app.Application;
 
-import cc.tencent.matrix.Matrix;
+import com.tencent.matrix.Matrix;
 import com.tencent.matrix.trace.TracePlugin;
 import com.tencent.matrix.trace.config.TraceConfig;
 
@@ -21,13 +21,14 @@ public class MatrixApplication extends Application {
         super.onCreate();
         instance = this;
         Matrix.Builder builder = new Matrix.Builder(this); // build matrix
-        builder.patchListener(new TestPluginListener(this)); // add general pluginListener
         // init plugin
         TracePlugin tracePlugin = new TracePlugin(
                 new TraceConfig.Builder()
                         .enableAnrTrace(true)
                         .enableEvilMethodTrace(true)
                         .enableFPS(true)
+                        .enableStartup(true)
+                        .splashActivities("cc.popin.aladdin.martrixsample.MainActivity;")
                         .build());
         //add to matrix
         builder.plugin(tracePlugin);

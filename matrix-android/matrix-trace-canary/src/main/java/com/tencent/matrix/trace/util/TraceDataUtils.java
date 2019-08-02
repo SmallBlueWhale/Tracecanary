@@ -4,7 +4,7 @@ import com.tencent.matrix.trace.constants.Constants;
 import com.tencent.matrix.trace.core.AppMethodBeat;
 import com.tencent.matrix.trace.items.MethodItem;
 
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixLog;
 
 import java.util.Collections;
 import java.util.Comparator;

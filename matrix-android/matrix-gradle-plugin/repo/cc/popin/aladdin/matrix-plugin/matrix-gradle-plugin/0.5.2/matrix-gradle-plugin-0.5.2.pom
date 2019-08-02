@@ -7,12 +7,6 @@
   <version>0.5.2</version>
   <dependencies>
     <dependency>
-      <groupId>com.tencent.matrix</groupId>
-      <artifactId>matrix-commons</artifactId>
-      <version>0.5.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm</artifactId>
       <version>5.1</version>

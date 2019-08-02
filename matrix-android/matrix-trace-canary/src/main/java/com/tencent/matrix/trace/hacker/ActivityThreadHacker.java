@@ -23,7 +23,7 @@ import android.os.SystemClock;
 
 import com.tencent.matrix.trace.core.AppMethodBeat;
 
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixLog;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

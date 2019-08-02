@@ -13,8 +13,8 @@ import com.tencent.matrix.trace.TracePlugin;
 import com.tencent.matrix.trace.listeners.IDoFrameListener;
 import com.tencent.matrix.trace.tracer.FrameTracer;
 
-import cc.tencent.matrix.Matrix;
-import cc.tencent.matrix.util.MatrixHandlerThread;
+import com.tencent.matrix.Matrix;
+import com.tencent.matrix.util.MatrixHandlerThread;
 
 public class FrameDecorator extends IDoFrameListener {
 

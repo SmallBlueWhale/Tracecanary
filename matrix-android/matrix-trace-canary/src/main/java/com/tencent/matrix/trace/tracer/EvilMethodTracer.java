@@ -6,17 +6,17 @@ import com.tencent.matrix.trace.core.AppMethodBeat;
 import com.tencent.matrix.trace.core.UIThreadMonitor;
 import com.tencent.matrix.trace.util.Utils;
 
-import cc.tencent.matrix.Matrix;
-import cc.tencent.matrix.report.Issue;
+import com.tencent.matrix.Matrix;
+import com.tencent.matrix.report.Issue;
 
 import com.tencent.matrix.trace.config.SharePluginInfo;
 import com.tencent.matrix.trace.config.TraceConfig;
 import com.tencent.matrix.trace.items.MethodItem;
 import com.tencent.matrix.trace.util.TraceDataUtils;
 
-import cc.tencent.matrix.util.DeviceUtil;
-import cc.tencent.matrix.util.MatrixHandlerThread;
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.DeviceUtil;
+import com.tencent.matrix.util.MatrixHandlerThread;
+import com.tencent.matrix.util.MatrixLog;
 
 import org.json.JSONException;
 import org.json.JSONObject;

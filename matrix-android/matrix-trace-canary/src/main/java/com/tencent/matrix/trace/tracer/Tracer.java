@@ -4,7 +4,7 @@ import android.support.annotation.CallSuper;
 
 import com.tencent.matrix.trace.listeners.LooperObserver;
 
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixLog;
 
 public abstract class Tracer extends LooperObserver implements ITracer {
 

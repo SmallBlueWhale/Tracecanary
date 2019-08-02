@@ -19,7 +19,7 @@ package com.tencent.matrix.trace.config;
 import com.tencent.matrix.trace.constants.Constants;
 import com.tencent.matrix.trace.listeners.IDefaultConfig;
 
-import cc.tencent.mrs.plugin.IDynamicConfig;
+import com.tencent.mrs.plugin.IDynamicConfig;
 
 import java.util.Arrays;
 import java.util.Collections;

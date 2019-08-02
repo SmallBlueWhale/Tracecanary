@@ -23,16 +23,16 @@ import android.os.Looper;
 import com.tencent.matrix.trace.core.AppMethodBeat;
 import com.tencent.matrix.trace.core.UIThreadMonitor;
 
-import cc.tencent.matrix.plugin.Plugin;
-import cc.tencent.matrix.plugin.PluginListener;
+import com.tencent.matrix.plugin.Plugin;
+import com.tencent.matrix.plugin.PluginListener;
 import com.tencent.matrix.trace.config.SharePluginInfo;
 import com.tencent.matrix.trace.config.TraceConfig;
 import com.tencent.matrix.trace.tracer.AnrTracer;
 import com.tencent.matrix.trace.tracer.EvilMethodTracer;
 import com.tencent.matrix.trace.tracer.FrameTracer;
 import com.tencent.matrix.trace.tracer.StartupTracer;
-import cc.tencent.matrix.util.MatrixHandlerThread;
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixHandlerThread;
+import com.tencent.matrix.util.MatrixLog;
 
 /**
  * Created by caichongyang on 2017/5/20.

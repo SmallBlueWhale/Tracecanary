@@ -6,7 +6,7 @@ import android.os.MessageQueue;
 import android.support.annotation.CallSuper;
 import android.util.Printer;
 
-import cc.tencent.matrix.util.MatrixLog;
+import com.tencent.matrix.util.MatrixLog;
 
 import java.lang.reflect.Field;
 import java.util.HashSet;
